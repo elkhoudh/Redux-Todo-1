@@ -29,7 +29,7 @@ const styles = theme => ({
     paddingRight: theme.spacing.unit * 2
   },
   paper: {
-    width: "80%",
+    width: "90%",
     paddingBottom: 50,
     margin: "0 auto",
     marginTop: 50,
