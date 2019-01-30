@@ -46,6 +46,7 @@ class TextFields extends React.Component {
         onSubmit={this.addTodo}
       >
         <TextField
+          autoFocus
           name="task"
           id="standard-full-width"
           label="Task"
