@@ -104,11 +104,20 @@ function BottomAppBar(props) {
       </Paper>
       <AppBar position="fixed" color="primary" className={classes.appBar}>
         <Toolbar className={classes.toolbar}>
-          <IconButton color="inherit" aria-label="Open drawer">
-            <ClearIcon onClick={clearCompleted} />
+          <IconButton
+            onClick={clearCompleted}
+            color="inherit"
+            aria-label="Open drawer"
+          >
+            <ClearIcon />
           </IconButton>
-          <Fab color="secondary" aria-label="Add" className={classes.fabButton}>
-            <AddIcon onClick={toggleModal} />
+          <Fab
+            onClick={toggleModal}
+            color="secondary"
+            aria-label="Add"
+            className={classes.fabButton}
+          >
+            <AddIcon />
           </Fab>
         </Toolbar>
       </AppBar>
